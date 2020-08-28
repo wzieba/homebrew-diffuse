@@ -7,11 +7,10 @@ class Diffuse < Formula
   depends_on java: "1.8"
 
   def install
-    system "./gradlew", "assemble"
-    bin.install "diffuse/build/diffuse"
+    system "echo", "This tap is abandoned. Use first-party tap: https://github.com/JakeWharton/diffuse#install"
   end
 
   test do
-    shell_output("#{bin}/diffuse")
+    shell_output("#{bin}/diffuse", 1)
   end
 end

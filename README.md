@@ -1,3 +1,6 @@
+# Abandoned
+This tap is abandoned. Use [first-party tap](https://github.com/JakeWharton/diffuse#install).
+
 # Diffuse tap ![brew test-bot](https://github.com/wzieba/homebrew-diffuse/workflows/brew%20test-bot/badge.svg)
 Formula defined in this tap installs Jake Wharton's [`diffuse`](https://github.com/JakeWharton/diffuse) console tool for diffing APKs, AABs, AARs and JARs.
 
